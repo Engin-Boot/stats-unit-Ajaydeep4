@@ -7,12 +7,9 @@ namespace Alerts
     public class LEDAlert : IAlerter
     {
         public bool ledGlows = false;
-        void IAlerter.Alert(double maxThreshold, double max)
+        void IAlerter.Alert()
         {
-            if (max > maxThreshold)
-            {
                 this.ledGlows = true;
-            }
         }
     }
 }

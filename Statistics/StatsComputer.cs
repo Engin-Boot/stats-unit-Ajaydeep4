@@ -3,47 +3,41 @@ using System.Collections.Generic;
 using Alerts;
 
 namespace Statistics
-{
-    //Was thinking of using function pareadigm but decide to use OOP.
-
-    //public interface ICalculateStatistics
-    //{
-    //    Stats CalculateStatistics(List<double> numbers);
-    //}
-    
+{   
     public class StatsComputer
     {
-        static public StatsDataModel CalculateStatistics(List<double> numbers) {
-            //Implement statistics here
-            double average;
-            double max;
-            double min;
+        public class StatsDataModel
+        {
+            public double average;
+            public double max;
+            public double min;
+            public StatsDataModel(double _average = Double.NaN, double _max = Double.NaN, double _min = Double.NaN)
+            {
+                this.average = _average;
+                this.max = _max;
+                this.min = _min;
+            }
+        }
+        StatsDataModel stats = new StatsDataModel();
+        
+        public StatsDataModel CalculateStatistics(List<double> numbers)
+        {
             if (numbers.Count == 0)
                 return new StatsDataModel();
-            max = numbers[0];
-            min = numbers[0];
-            average = 0;
+            this.stats.max = numbers[0];
+            this.stats.min = numbers[0];
+            this.stats.average = 0;
             foreach(float number in numbers)
             {
-                if (number > max)
-                    max = number;
-                if (number < min)
-                    min = number;
-                average += number;
+                if (number > this.stats.max)
+                    this.stats.max = number;
+                if (number < this.stats.min)
+                    this.stats.min = number;
+                this.stats.average += number;
             }
-            average /= numbers.Count;
-            return ( new StatsDataModel(average, max, min) );
+            this.stats.average /= numbers.Count;
+            return stats;
         }
-    }
-    
-    //static Func<double, bool> CheckArgumentGreateThanDouble(double b)
-    //{
-    //    bool Check(double a)
-    //    {
-    //        return a>b;
-    //    }
-    //    return Check;
-    //}
-    
+    }   
 }
 

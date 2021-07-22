@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ajayd\\source\\repos\\stats-unit-ajaydeep\\statisticker\\Alerts\\Alerts.csproj",
+      "projectUniqueName": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\Alerts.csproj",
       "projectName": "Alerts",
-      "projectPath": "C:\\Users\\ajayd\\source\\repos\\stats-unit-ajaydeep\\statisticker\\Alerts\\Alerts.csproj",
+      "projectPath": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\Alerts.csproj",
       "packagesPath": "C:\\Users\\ajayd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ajayd\\source\\repos\\stats-unit-ajaydeep\\statisticker\\Alerts\\obj\\",
+      "outputPath": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ajayd\\AppData\\Roaming\\NuGet\\NuGet.Config",

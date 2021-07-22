@@ -8,7 +8,6 @@ namespace Statistics
 {
     public class StatsAlerter
     {
-        //public Action<double> alertHandeler = null;
         double maxThreshold;
         List<IAlerter> alertHandeler = new List<IAlerter>();
         public StatsAlerter(double maxThreshold, List<IAlerter> alerters)
@@ -23,9 +22,10 @@ namespace Statistics
         }
         public void CheckAndAlert(List<double> numbers)
         {
-            double max = StatsComputer.CalculateStatistics(numbers).max;
+            double max = new StatsComputer().CalculateStatistics(numbers).max;
             for (int i = 0; i < alertHandeler.Count; ++i)
-                alertHandeler[i].Alert(maxThreshold, max);
+                if(max>maxThreshold)
+                    alertHandeler[i].Alert();
         }
     }
 }

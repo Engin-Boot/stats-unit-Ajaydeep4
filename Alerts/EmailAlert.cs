@@ -7,12 +7,9 @@ namespace Alerts
     public class EmailAlert : IAlerter
     {
         public bool emailSent = false;
-        void IAlerter.Alert(double maxThreshold, double max)
+        void IAlerter.Alert()
         {
-            if (max > maxThreshold)
-            {
-                this.emailSent = true;
-            }
+                this.emailSent = true; 
         }
     }
 }
