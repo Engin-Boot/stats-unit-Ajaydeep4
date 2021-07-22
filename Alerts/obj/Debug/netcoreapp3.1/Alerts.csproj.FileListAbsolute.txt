@@ -1,0 +1,9 @@
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\bin\Debug\netcoreapp3.1\Alerts.deps.json
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\bin\Debug\netcoreapp3.1\Alerts.dll
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\bin\Debug\netcoreapp3.1\Alerts.pdb
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\obj\Debug\netcoreapp3.1\Alerts.csproj.AssemblyReference.cache
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\obj\Debug\netcoreapp3.1\Alerts.AssemblyInfoInputs.cache
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\obj\Debug\netcoreapp3.1\Alerts.AssemblyInfo.cs
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\obj\Debug\netcoreapp3.1\Alerts.csproj.CoreCompileInputs.cache
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\obj\Debug\netcoreapp3.1\Alerts.dll
+C:\Users\ajayd\source\repos\stats-unit-ajaydeep\statisticker\Alerts\obj\Debug\netcoreapp3.1\Alerts.pdb
