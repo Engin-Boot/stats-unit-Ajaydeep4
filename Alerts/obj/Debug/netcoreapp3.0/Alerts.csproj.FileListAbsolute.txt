@@ -16,3 +16,12 @@ C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4-new\Alerts\obj\Debug\netcoreapp
 C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4-new\Alerts\obj\Debug\netcoreapp3.0\Alerts.csproj.CoreCompileInputs.cache
 C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4-new\Alerts\obj\Debug\netcoreapp3.0\Alerts.dll
 C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4-new\Alerts\obj\Debug\netcoreapp3.0\Alerts.pdb
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\bin\Debug\netcoreapp3.0\Alerts.deps.json
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\bin\Debug\netcoreapp3.0\Alerts.dll
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\bin\Debug\netcoreapp3.0\Alerts.pdb
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\obj\Debug\netcoreapp3.0\Alerts.csproj.AssemblyReference.cache
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\obj\Debug\netcoreapp3.0\Alerts.AssemblyInfoInputs.cache
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\obj\Debug\netcoreapp3.0\Alerts.AssemblyInfo.cs
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\obj\Debug\netcoreapp3.0\Alerts.csproj.CoreCompileInputs.cache
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\obj\Debug\netcoreapp3.0\Alerts.dll
+C:\Users\ajayd\Source\Repos\stats-unit-Ajaydeep4\Alerts\obj\Debug\netcoreapp3.0\Alerts.pdb

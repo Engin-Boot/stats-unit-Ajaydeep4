@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\Alerts.csproj": {}
+    "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4\\Alerts\\Alerts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\Alerts.csproj": {
+    "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4\\Alerts\\Alerts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\Alerts.csproj",
+        "projectUniqueName": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4\\Alerts\\Alerts.csproj",
         "projectName": "Alerts",
-        "projectPath": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\Alerts.csproj",
+        "projectPath": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4\\Alerts\\Alerts.csproj",
         "packagesPath": "C:\\Users\\ajayd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4-new\\Alerts\\obj\\",
+        "outputPath": "C:\\Users\\ajayd\\Source\\Repos\\stats-unit-Ajaydeep4\\Alerts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ajayd\\AppData\\Roaming\\NuGet\\NuGet.Config",

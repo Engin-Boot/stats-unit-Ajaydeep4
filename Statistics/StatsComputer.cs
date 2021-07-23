@@ -29,6 +29,8 @@ namespace Statistics
             this.stats.average = 0;
             foreach(float number in numbers)
             {
+                if (Double.NaN.Equals(number))
+                    return new StatsDataModel();
                 if (number > this.stats.max)
                     this.stats.max = number;
                 if (number < this.stats.min)

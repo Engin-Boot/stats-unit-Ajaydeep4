@@ -30,6 +30,16 @@ namespace Statistics.Test
             Assert.True(Double.NaN.Equals(computedStats.min));
         }
         [Fact]
+        public void ReportsNaNIfInputContainsNaN()
+        {
+            var statsComputer = new StatsComputer();
+            var computedStats = statsComputer.CalculateStatistics(
+                new List<double> { 1.5, 8.9, double.NaN, 4.5 });
+            Assert.True(Double.NaN.Equals(computedStats.average));
+            Assert.True(Double.NaN.Equals(computedStats.max));
+            Assert.True(Double.NaN.Equals(computedStats.min));
+        }
+        [Fact]
         public void RaisesAlertsIfMaxIsMoreThanThreshold()
         {
             var emailAlert = new EmailAlert();
