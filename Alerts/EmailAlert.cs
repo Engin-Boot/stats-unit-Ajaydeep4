@@ -7,7 +7,7 @@ namespace Alerts
     public class EmailAlert : IAlerter
     {
         public bool emailSent = false;
-        void IAlerter.Alert()
+        public void Alert()
         {
                 this.emailSent = true; 
         }

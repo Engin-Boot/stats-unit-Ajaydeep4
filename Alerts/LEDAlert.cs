@@ -7,7 +7,7 @@ namespace Alerts
     public class LEDAlert : IAlerter
     {
         public bool ledGlows = false;
-        void IAlerter.Alert()
+        public void Alert()
         {
                 this.ledGlows = true;
         }
